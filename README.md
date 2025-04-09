@@ -7,8 +7,8 @@ Welcome to my personal portfolio website! Here, you’ll find details about my s
 - [About Me](#about-me)
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
-- [Installation](#installation)
 
+- 
 ## About Me
 
 I’m Nkosiphile Sono, a passionate software developer with expertise in various web technologies. I’m always excited to learn new skills and apply them in practical projects. This portfolio showcases my work and provides insights into my development journey.
@@ -31,10 +31,7 @@ Here are some of the projects I’ve worked on, which are featured on this websi
    - Technologies used: **HTML,CSS + JS(React)**
    - [Link to project or demo]
 
-## Installation
+## Preview Portfolio
 
 To run this portfolio website locally, follow the steps below:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/NkosiphileSono/my-portfolio-web.git
+https://nkosiphilesono.onrender.com
