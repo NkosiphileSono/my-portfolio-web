@@ -27,11 +27,11 @@ Here are some of the projects I’ve worked on, which are featured on this websi
 
 1. **To Do List App**
    - App that allows users to manage their tasks efficiently.Keeping track on whish tasks are completed and which are due.
-   - Technologies used: 
-     **Frontend**: React.js, JSX, Bootstrap5
-     **Backend**: Node.js, Express.js
-     **Database**: PostgreSQL
-     **Environment**: dotenv for environment variables
+   - Technologies used:  
+     **Frontend**: React.js, JSX, Bootstrap5  
+     **Backend**: Node.js, Express.js  
+     **Database**: PostgreSQL  
+     **Environment**: dotenv for environment variables  
    - [Link to project repository](https://github.com/NkosiphileSono/to-do-list)
 
 ## Preview Portfolio
