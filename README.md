@@ -27,10 +27,14 @@ Here are some of the projects I’ve worked on, which are featured on this websi
 
 1. **To Do List App**
    - App that allows users to manage their tasks efficiently.Keeping track on whish tasks are completed and which are due.
-   - Technologies used: **HTML,CSS + JS(React)**
-   - [Link to project or demo]
+   - Technologies used: 
+   - **Frontend**: React.js, JSX, Bootstrap5
+   - **Backend**: Node.js, Express.js
+   - **Database**: PostgreSQL
+   - **Environment**: dotenv for environment variables
+   - [Link to project repository](https://githubcom/NkosiphileSono/to-do-list)
 
 ## Preview Portfolio
 
-To run this portfolio website locally, follow the steps below:
+To run this portfolio website, click on the link below below: 
 https://nkosiphilesono.onrender.com
