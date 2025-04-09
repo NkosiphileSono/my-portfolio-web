@@ -8,7 +8,6 @@ Welcome to my personal portfolio website! Here, you’ll find details about my s
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
 
-- 
 ## About Me
 
 I’m Nkosiphile Sono, a passionate software developer with expertise in various web technologies. I’m always excited to learn new skills and apply them in practical projects. This portfolio showcases my work and provides insights into my development journey.
