@@ -7,7 +7,6 @@ Welcome to my personal portfolio website! Here, you’ll find details about my s
 - [About Me](#about-me)
 - [Technologies Used](#technologies-used)
 - [Projects](#projects)
-- [Installation](#installation)
 
 ## About Me
 
@@ -28,13 +27,14 @@ Here are some of the projects I’ve worked on, which are featured on this websi
 
 1. **To Do List App**
    - App that allows users to manage their tasks efficiently.Keeping track on whish tasks are completed and which are due.
-   - Technologies used: **HTML,CSS + JS(React)**
-   - [Link to project or demo]
+   - Technologies used:  
+     **Frontend**: React.js, JSX, Bootstrap5  
+     **Backend**: Node.js, Express.js  
+     **Database**: PostgreSQL  
+     **Environment**: dotenv for environment variables  
+   - [Link to project repository](https://github.com/NkosiphileSono/to-do-list)
 
-## Installation
+## Preview Portfolio
 
-To run this portfolio website locally, follow the steps below:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/NkosiphileSono/my-portfolio-web.git
+To run this portfolio website, click on the link below below: 
+https://nkosiphilesono.onrender.com
