@@ -1,310 +1,161 @@
 <!DOCTYPE html>
-<html class="no-js ss-preload" lang="en">
+<html lang="en">
 
 <head>
-
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Nkosiphile Sono | My Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="I'm Nkosiphile, a software engineer and web developer based in Gauteng. Explore my projects, resume, and skills.">
-    <meta name="keywords" content="Nkosiphile, Web Developer, Software Engineer, Java, C#, React, Johannesburg">
-    <meta name="author" content="Nkosiphile">
+        content="I'm Nkosiphile, a software engineer and web developer based in Gauteng. Explore my projects, resume, and skills." />
+    <meta name="keywords" content="Nkosiphile, Web Developer, Software Engineer, Java, C#, React, Johannesburg" />
+    <meta name="author" content="Nkosiphile" />
     <meta name="google-site-verification" content="a-YonZs4Hv6FgKj30b0UGCgdXr2mXza9D-kA6MYYy_A" />
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
+    <title>Nkosiphile Sono | Software Engineer</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/jpg" sizes="32x32" href="images/Profile.jpg" />
+    <link rel="icon" type="image/jpg" sizes="16x16" href="images/Profile.jpg" />
+    <link rel="manifest" href="site.webmanifest" />
 </head>
 
-<body id="top">
+<body>
+    <div class="bg-animation"></div>
 
+    <nav>
+        <div class="logo">N.Sono</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
 
-    <!-- # preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">
-        </div>
-    </div>
-
-
-    <!-- # page wrap
-    ================================================== -->
-    <div class="s-pagewrap">
-
-        <div class="circles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-
-        <!-- ## site header 
-        ================================================== -->
-        <header class="s-header">
-
-            <div class="header-mobile">
-                <span class="mobile-home-link"><a href="index.html">Nkosiphile.</a></span>
-                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
-            </div>
-
-            <div class="row wide main-nav-wrap">
-                <nav class="column lg-12 main-nav">
-                    <ul>
-                        <li><a href="index.html" class="home-link">Nkosiphile.</a></li>
-                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li><a href="#works" class="smoothscroll">Experience</a></li>
-                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
-                    </ul>
-                </nav>
-            </div>
-
-        </header> <!-- end s-header -->
-
-
-        <!-- ## main content
-        ==================================================- -->
-        <main class="s-content">
-
-
-            <!-- ### intro
-            ================================================== -->
-            <section id="intro" class="s-intro target-section">
-
-                <div class="row intro-content wide">
-
-                    <div class="column">
-                        <p class="intro-subtitle"> Web Developer | Full-Stack Enthusiast | Problem Solver</p>
-
-                        <div class="text-pretitle with-line">
-                            Hello World
-                        </div>
-
-                        <h1 class="text-huge-title">
-                            I'm Nkosiphile, <br>
-                            a passionate Software Engineer.
-                        </h1>
-
-                    </div>
-
-                    <ul class="intro-social">'"
-                        <li><a href="https://github.com/NkosiphileSono" target="_blank">Github</a></li>
-                        <li><a href="https://www.linkedin.com/in/sono-nkosiphile-808517263/"
-                                target="_blank">LinkedIn</a></li>
-                    </ul>
-
-                </div> <!-- end intro content -->
-
-                <a href="#about" class="intro-scrolldown smoothscroll">
-                    <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                        fill-rule="evenodd" clip-rule="evenodd">
-                        <path
-                            d="M11 21.883l-6.235-7.527-.765.644 7.521 9 7.479-9-.764-.645-6.236 7.529v-21.884h-1v21.883z" />
-                    </svg>
-                </a>
-
-            </section> <!-- end s-intro -->
-
-
-            <!-- ### about
-            ================================================== -->
-            <section id="about" class="s-about target-section">
-                <div class="row about-info wide" data-animate-block>
-
-                    <div class="column lg-6 md-12 about-info__pic-block">
-                        <img src="images/Profile.jpg" srcset="images/Profile.jpg 1x, images/Profile@2x.jpg 2x" alt=""
-                            class="about-info__pic" data-animate-el>
-                    </div>
-
-                    <div class="column lg-6 md-12">
-                        <div class="about-info__text">
-
-                            <h2 class="text-pretitle with-line" data-animate-el>
-                                About
-                            </h2>
-                            <p class="attention-getter" data-animate-el>
-                                Hi there! I'm Nkosiphile, a passionate Web Developer and Software Engineer pursuing a
-                                Computer Science degree at the University of Johannesburg. I love building efficient,
-                                user-friendly digital solutions and have experience in web development, database
-                                management, and app design. When I'm not coding, I enjoy football, exploring new tech,
-                                and brainstorming ideas.
-                            </p>
-
-                            <a href="assets/CV_OF_NKOSIPHILE_SONO.pdf" download="CV_OF_NKOSIPHILE_SONO.pdf"
-                                class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
-
-                        </div>
-                    </div>
-                </div> <!-- about-info -->
-
-
-                <div class="row about-expertise" data-animate-block>
-                    <div class="column md-12">
-
-                        <h2 class="text-pretitle" data-animate-el>Expertise</h2>
-
-                        <ul class="skills-list" data-animate-el>
-                            <li><strong>Languages:</strong> Java, JavaScript, C#</li><br>
-                            <li><strong>Web Technologies:</strong> HTML5, CSS3, JavaScript, React</li><br>
-                            <li><strong>Frameworks:</strong> React Native, Express, Bootstrap 5, ASP.NET</li><br>
-                            <li><strong>Databases:</strong> MySQL, PostgreSQL</li><br>
-                            <li><strong>Tools:</strong> Git, Visual Studio Code, SQL Server</li>
-                        </ul>
-                    </div>
-                </div> <!-- end about-expertise -->
-            </section>
-
-            <section id="works" class="s-about target-section">
-                <div class="row about-timelines" data-animate-block>
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Experience
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">University of Johannesburg</h4>
-                                    <h5 class="timeline__meta">Student Assistant / Tutor</h5>
-                                    <p class="timeline__timeframe">Feb 2025 – Present</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Provided academic support in Java, C#, SQL, and ASP.NET. Helped students with
-                                        debugging, assignments, and project prep.</p>
-                                </div>
-                            </div>
-                        </div> <!-- end timeline -->
-
-                    </div> <!-- end column -->
-
-                    <div class="column lg-6 tab-12">
-
-                        <h2 class="text-pretitle" data-animate-el>
-                            Education
-                        </h2>
-
-                        <div class="timeline" data-animate-el>
-
-                            <div class="timeline__block">
-                                <div class="timeline__bullet"></div>
-                                <div class="timeline__header">
-                                    <h4 class="timeline__title">University of Johannesburg</h4>
-                                    <h5 class="timeline__meta">BSc in Computer Science & informatics</h5>
-                                    <p class="timeline__timeframe">Feb 2023 - Nov 2025</p>
-                                </div>
-                                <div class="timeline__desc">
-                                    <p>Currently pursuing my Bachelor of Science degree with a focus on Computer Science
-                                        and Informatics.
-                                        This program has helped me build a solid foundation in software development,
-                                        data structures, algorithms, databases, and web technologies.
-                                        I’ve worked on various projects both individually and in teams, gaining valuable
-                                        hands-on experience and problem-solving skills.</p>
-                                </div>
-                            </div>
-                        </div> <!-- end timeline -->
-
-                    </div> <!-- end column -->
-
-
-                </div> <!-- end about-timelines -->
-
-            </section> <!-- end s-about -->
-
-            <!-- ### contact
-            ================================================== -->
-            <section id="contact" class="s-contact target-section">
-
-                <div class="row contact-top">
-                    <div class="column lg-12">
-                        <h2 class="text-pretitle">
-                            Get In Touch
-                        </h2>
-
-                        <p class="h1">
-                            I'd love to connect with you!<br>
-                            Whether you have a project in mind, a question, or just want to talk about tech, coding, or
-                            creative ideas — feel free to drop a message.
-                        </p>
-                    </div>
-                </div> <!-- end contact-top -->
-
-                <div class="row contact-bottom">
-                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Reach me at</h3>
-                        <p class="contact-links">
-                            <a href="mailto:sayhello@luther.com" class="mailtoui">nkosiphile005@gmail.com</a> <br>
-                            <a href="tel:+1975432345">+27 76 612 5835</a>
-                        </p>
-                    </div>
-                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
-                        <h3 class="text-pretitle">Social</h3>
-                        <ul class="contact-social">
-                            <li><a href="https://www.linkedin.com/in/sono-nkosiphile-808517263/"
-                                    target="_blank">LinkedIn</a></li>
-                            <li><a href="https://github.com/NkosiphileSono" target="_blank">Github</a></li>
-                        </ul>
-                    </div>
-                    <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:nkosiphile005@gmail.com"
-                            class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
-                    </div>
-                </div> <!-- end contact-bottom -->
-
-            </section> <!-- end contact -->
-
-        </main> <!-- end s-content -->
-
-
-        <!-- ## footer
-        ================================================== -->
-        <footer class="s-footer">
-
-            <div class="row">
-                <div class="column ss-copyright">
-                    <span>© Copyright Nkosiphile 2025</span>
-                </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill-rule="evenodd"
-                            clip-rule="evenodd">
-                            <path
-                                d="M11 2.206l-6.235 7.528-.765-.645 7.521-9 7.479 9-.764.646-6.236-7.53v21.884h-1v-21.883z" />
-                        </svg>
-                    </a>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>
+                    Hi, I'm <span class="gradient-text">Nkosiphile</span><br />
+                    Software Engineer
+                </h1>
+                <p>
+                    Passionate about building efficient, user-friendly digital
+                    solutions. Specializing in web development, database management, and
+                    creating seamless user experiences.
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="assets/CV_OF_NKOSIPHILE_SONO.pdf" download class="btn btn-secondary">Download CV</a>
                 </div>
             </div>
+            <div class="hero-image">
+                <img src="images/Profile.jpg" alt="Nkosiphile Sono" />
+            </div>
+        </div>
+    </section>
 
-        </footer> <!-- end s-footer -->
+    <section id="about">
+        <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+        <p class="section-subtitle">
+            Pursuing Computer Science at University of Johannesburg
+        </p>
 
-    </div> <!-- end -s-pagewrap -->
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>C#</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Web Technologies</h3>
+                <ul>
+                    <li>HTML5 & CSS3</li>
+                    <li>ReactJS</li>
+                    <li>Bootstrap 5</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Frameworks</h3>
+                <ul>
+                    <li>React Native</li>
+                    <li>Express + NodeJS</li>
+                    <li>ASP.NET</li>
+                </ul>
+            </div>
+            <div class="skill-card">
+                <h3>Databases & Tools</h3>
+                <ul>
+                    <li>MySQL & PostgreSQL</li>
+                    <li>Git & GitHub</li>
+                    <li>VS Code & SQL Server</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
+    <section id="experience">
+        <h2 class="section-title">
+            My <span class="gradient-text">Journey</span>
+        </h2>
+        <p class="section-subtitle">Experience & Education</p>
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>University of Johannesburg</h3>
+                <div class="role">Student Assistant / Tutor</div>
+                <div class="date">Feb 2025 – Present</div>
+                <p>
+                    Providing academic support in Java, C#, SQL, and ASP.NET. Helping
+                    students with debugging, assignments, and project preparation.
+                </p>
+            </div>
 
+            <div class="timeline-item">
+                <h3>University of Johannesburg</h3>
+                <div class="role">BSc in Computer Science & Informatics</div>
+                <div class="date">Feb 2023 - Nov 2025</div>
+                <p>
+                    Building a solid foundation in software development, data
+                    structures, algorithms, databases, and web technologies through
+                    hands-on projects and teamwork.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">
+            Let's <span class="gradient-text">Connect</span>
+        </h2>
+        <p class="section-subtitle">
+            Whether you have a project, question, or just want to talk tech
+        </p>
+
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h3>Email</h3>
+                <a href="mailto:nkosiphile005@gmail.com">nkosiphile005@gmail.com</a>
+            </div>
+            <div class="contact-card">
+                <h3>Phone</h3>
+                <a href="tel:+27766125835">+27 76 612 5835</a>
+            </div>
+            <div class="contact-card">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/sono-nkosiphile-808517263/" target="_blank">Connect with me</a>
+            </div>
+            <div class="contact-card">
+                <h3>GitHub</h3>
+                <a href="https://github.com/NkosiphileSono" target="_blank">View my work</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Nkosiphile Sono. Built with passion.</p>
+    </footer>
 </body>
 
 </html>

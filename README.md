@@ -4,9 +4,12 @@ Welcome to my personal portfolio website! Here, you’ll find details about my s
 
 ## Table of Contents
 
-- [About Me](#about-me)
-- [Technologies Used](#technologies-used)
-- [Projects](#projects)
+- [Portfolio Website](#portfolio-website)
+  - [Table of Contents](#table-of-contents)
+  - [About Me](#about-me)
+  - [Technologies Used](#technologies-used)
+  - [Projects](#projects)
+  - [Preview Portfolio](#preview-portfolio)
 
 ## About Me
 
@@ -18,7 +21,6 @@ This portfolio website was built using the following technologies:
 
 - **HTML** – Structure of the website
 - **CSS** – Styling and layout
-- **JavaScript** – Interactivity and dynamic content
 - **Git/GitHub** – Version control and project collaboration
 
 ## Projects
